@@ -1,9 +1,9 @@
-opcio = input("Que vols calcular un T o un C?")
-if (opcio == "C"):
+figura = input("Que vols calcular un T o un C?")
+if (figura == "C"):
     radi= float(input("Quin es el radi del cercle:"))
     print("El teva area es de" ,3,14*radi^2,)
 else:
-    if(opcio == "T"):
+    if(figura == "T"):
         base = float(input("Quina es la base:"))
-        altura = float(input("Quina es l'altura:"))
+        alzada = float(input("Quina es l'altura:"))
         print("cualquier mierda",(base*altura)/2,)
