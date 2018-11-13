@@ -6,4 +6,4 @@ else:
     if(figura == "T"):
         base = float(input("Quina es la base:"))
         alzada = float(input("Quina es l'altura:"))
-        print("cualquier mierda",(base*altura)/2,)
+        print("La teva area es de",(base*altura)/2,)
